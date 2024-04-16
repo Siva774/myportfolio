@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media screen and (max-width:920px) {
+    .details{
+        margin-bottom: 30%;
+    }
+    .details h1{
+        font-size: 20px;
+    }
+}
+
+.bodystyle{
+    font-family: "Urbanist";
+    overflow-x: hidden;
+}
+.details{
+    display: inline-block;
+    
+}
+.details h1{
+    color: white;
+    font-weight: bold;
+}
+.profile-pic{
+    margin-right: 50px;
+    border-radius: 180px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#particles-js{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+#homesection{
+    position: absolute;
+    width: 100%;
+    margin-top: 20%;
+}
+.helloiam{
+    font-family: "Urbanist";
+    font-weight: bold; 
+    color: white; 
+}
+.multiple-text{
+    color:#1ceaed;
+}
+
+.edubackground{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    transition: 0.5s;
+}
+.edubackground:hover{
+    box-shadow: 0 0 45px white;
+    background-color: #1ceaed;
+}
+.services-background{
+    background-color: white;
+    box-shadow: 0 0 45px #1ceaed;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.5s;
+}
+.services-background:hover{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1ceaed;
+}
+
+.serviceimage{
+    height: 200px;
+    width: 200px;
+}
+.urbanist{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+.certilogo{
+    height: 40px;
+    width: 40px;
+}
+
+.eduimages{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 160px;
+    width: 220px;
+    background-size: cover;
+}
+
+.aspiringpara{
+    font-family: "Urbanist";
+    color:white; 
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.aboutmeheading{
+    color: #1ceaed;
+    font-family: "Urbanist";
+    font-weight: bold;
+}
+
+.frontendheading{
+    color: black;
+    font-family: "Urbanist";
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aboutmepara{
+    color: black;
+    font-family: "Urbanist";
+    font-size: 25px;
+}
+
+.boyimageprop{
+    height:110%;
+    width: 90%;
+}
+.boyimageprop2{
+    height:80%;
+    width: 65%;
+}
+.boldtext{
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.navele{
+    color: white;
+    transition: 0.5s;
+}
+.navele:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1ceaed;
+    color: #1ceaed;
+    text-decoration: none;
+}
+.aboutmesection{
+    margin-top: 20px;
+}
+.follow-us-icon-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 25px;
+    background-color: #1ceaed;
+    transition: 1s;
+}
+.follow-us-icon-container:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    box-shadow: 0 0 20px black;
+}
+.icon {
+    color: black;
+    font-size: 35px;
+}
+
+.copyrights{
+    color: black;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.skillbackground{
+    background-color: white;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 45px #1ceaed;
+    cursor: pointer;
+    transition: 1s;
+}
+.skillbackground:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    background-color: #1ceaed;
+}
+.skillimgprop{
+    margin-top: 50px;
+    margin-left: 8px;
+    height: 100px;
+    width: 100px;
+}
+.skilltextsize{
+    padding-top: 20px;
+    font-family: "Urbanist";
+    font-size: 20px;
+    text-align: center;
+}
+.projectsbackground{
+    background-color: #1ceaed;
+    height: 70vh;
+    width: 340px;
+    transition: 0.5s;
+    box-shadow: 0 0 45px grey;
+}
+.projectsbackground:hover{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+.projectimages{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 10px;
+
+}
+.projectheading{
+    font-family: "Urbanist";
+    font-size: 25px;
+    padding-top: 20px;
+}
+.techheading{
+    font-family: "Urbanist";
+    font-size: 20px;
+    padding-top: 5px;
+}
+.techpara{
+    font-family: "Urbanist";
+}
+
+.servicepara{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.certificatestyle{
+    height: 230px;
+    width: 310px;
+    transition: 0.5s;
+}
+.certificatestyle:hover{
+    border-style: solid;
+    border-width: 5px;
+    border-color: gold;
+}
+
+
+
+
+
